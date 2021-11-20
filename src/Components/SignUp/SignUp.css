@@ -1,0 +1,9 @@
+#sign-up-title{
+    font-weight: bold;
+}
+.href-link{
+    text-decoration: none;
+}
+.href-link:hover{
+    text-decoration: underline;
+}

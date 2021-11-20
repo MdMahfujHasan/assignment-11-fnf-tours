@@ -1,0 +1,42 @@
+#gallery-title{
+    font-weight: bold;
+}
+.vegatable{
+    
+}
+.vegatable img{
+    padding: 10px;
+    border: 1px dashed black;
+}
+.vegatables{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    padding: 50px;
+}
+.fas.fa-thumbs-up{
+    color: rgb(50, 50, 255);
+    margin: 5px;
+}
+.fas.fa-thumbs-up:hover, .fas.fa-heart:hover, .fas.fa-share:hover{
+    transition: 0.1s ease-in-out;
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.fas.fa-heart{
+    color: rgb(255, 51, 51);
+    margin: 5px;
+}
+.fas.fa-share{
+    color: limegreen;
+    margin: 5px;
+}
+.fas.fa-thumbs-up, .fas.fa-heart, .fas.fa-share{
+    font-size: 2em;
+}
+.reactions{
+    background-color: rgb(193, 253, 218);
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+}

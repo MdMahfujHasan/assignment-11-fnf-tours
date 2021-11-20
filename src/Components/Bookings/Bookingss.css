@@ -1,0 +1,22 @@
+#booking-title{
+    font-weight: bold;
+}
+.schedule{
+    display: flex;
+    justify-content: center;
+}
+.time{
+    margin: 10px;
+}
+.fas.fa-plane-departure, .fas.fa-plane, .fas.fa-plane-arrival, .fas.fa-map-marked-alt{
+    font-size: 5em;
+}
+.fas.fa-plane-departure, .fas.fa-plane-arrival{
+    color: indigo;
+}
+.fas.fa-plane{
+    color: coral;
+}
+.fas.fa-map-marked-alt{
+    color: green;
+}

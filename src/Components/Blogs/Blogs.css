@@ -1,0 +1,28 @@
+#blogs-title{
+    font-weight: bold;
+}
+.blog{
+    padding: 10px;
+    color: black;
+    background-color: #cccccc80;
+}
+.blogs1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 20px;
+    margin: 20px;
+}
+.blogs2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 20px;
+    margin: 20px;
+}
+.blogs3{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin: 20px;
+}

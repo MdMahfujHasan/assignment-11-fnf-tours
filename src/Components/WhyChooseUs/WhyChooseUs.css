@@ -1,0 +1,40 @@
+#why-choose-us-title{
+    font-weight: bold;
+    margin: 10px;
+}
+.fas.fa-globe-europe, .fas.fa-money-check-alt, .fas.fa-camera-retro, .far.fa-calendar-check, .far.fa-comment-dots, .fas.fa-bus-alt{
+    font-size: 3em;
+}
+.fas.fa-globe-europe{
+    color: darkgreen;
+}
+.fas.fa-money-check-alt{
+    color: blueviolet;
+}
+.fas.fa-camera-retro{
+    color: palevioletred;
+}
+.far.fa-calendar-check{
+    color: brown;
+}
+.far.fa-comment-dots{
+    color: darkblue;
+}
+.fas.fa-bus-alt{
+    color: red;
+}
+.why-choose-us{
+    padding: 30px;
+}
+.why-choose-us-card{
+    background-color: #446df366;
+    padding: 10px;
+}
+.why-choose-us-card:hover{
+    cursor: pointer;   
+}
+.why-choose-us-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}

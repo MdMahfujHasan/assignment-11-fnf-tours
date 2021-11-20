@@ -1,0 +1,25 @@
+#take-a-took-at-our-title{
+    font-family: 'Courier New', Courier, monospace;
+}
+#most-popular-tours-title, #take-a-took-at-our-title{
+    font-weight: bold;
+}
+.fas.fa-star, .fas.fa-star-half-alt, .far.fa-star{
+    color: goldenrod;
+}
+.most-popular-tours-card{
+    padding: 10px;
+    background-image: linear-gradient(to bottom, #20b2ab80, #90ee904d);
+}
+.most-popular-tours-card img{
+    border: 1px dashed black;
+    padding: 10px;
+    box-sizing: content-box;
+}
+.most-popular-tours-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 30px ;
+    padding: 30px;
+}
